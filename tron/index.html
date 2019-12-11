@@ -23,7 +23,7 @@
                 canvas.style.height ='100%';
                 canvas.height = window.innerHeight;
 
-                context.fillStyle = "black";
+                context.fillStyle = "blue";
 
                 scene = [];
 
@@ -59,7 +59,7 @@
             function draw(){
                 player1.grow()
                 if(!player1.alive) {
-                    displayWinnerName("Dave")
+                    displayWinnerName("Wes")
                     clearInterval(stopDraw);
                     return;
                 }
